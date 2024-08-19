@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "esnext",
+    "lib": ["es2016", "dom"],
+
+    // Input and output settings
+    "rootDir": "./src/scripts",
+    "outDir": "./dist/scripts",
+
+    // Strict type checking
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+
+    // Module resolution
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+
+    // Additional options
+    "skipLibCheck": true,
+    "types": ["node"],
+    "sourceMap": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
